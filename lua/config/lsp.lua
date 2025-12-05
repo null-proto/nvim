@@ -143,7 +143,7 @@ vim.lsp.config('clangd', {
       },
     },
   },
-  cmd = { 'clangd', '--compile-commands-dir=.' },
+  cmd = { 'clangd', '--compile-commands-dir=build' },
   filetypes = { 'c', 'cc', 'h', 'hxx', 'hxx', 'cpp', 'objc', 'objcpp', 'cuda', 'proto' },
 })
 
@@ -199,6 +199,9 @@ vim.lsp.enable 'jinja_lsp'
 -- lua
 vim.lsp.enable 'lua_ls'
 
+-- build
+vim.lsp.enable 'cmake'
+
 -- init system
 vim.lsp.enable 'systemd_ls'
 vim.lsp.enable 'nixd'
@@ -207,10 +210,11 @@ vim.lsp.enable 'bashls'
 vim.lsp.enable 'yamlls'
 
 
--- system
+-- systems language
 vim.lsp.enable 'clangd'
 vim.lsp.enable 'rust_analyzer'
 
 -- scripting
 vim.lsp.enable 'ruff'
+vim.lsp.enable 'ruff-lsp'
 vim.lsp.enable 'pyright'
