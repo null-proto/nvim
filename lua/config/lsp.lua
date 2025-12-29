@@ -17,7 +17,7 @@ vim.lsp.config('denols', {
 
 
 vim.lsp.config('jinja_lsp', {
-	filetypes = {'jinja','tmpl','html'},
+	filetypes = {'jinja','tmpl','html','j2'},
   capabilities = capabilities,
 })
 
