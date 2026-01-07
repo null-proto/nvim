@@ -27,7 +27,7 @@ vim.opt.softtabstop = 2
 vim.opt.shiftwidth = 2
 -- vim.opt.expandtab = true
 
-vim.opt.grepprg = 'rg --vimgrep'
+vim.opt.grepprg = 'rg --vimgrep --smart-case'
 vim.opt.grepformat = '%f:%l:%c:%m'
 
 -- vim.cmd.colorscheme 'catppuccin-macchiato'
