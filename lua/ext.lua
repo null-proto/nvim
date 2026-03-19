@@ -1,13 +1,14 @@
 return {
-	{
-		'ggml-org/llama.vim',
-		init = function()
-			vim.g.llama_config = {
-				auto_fim = true,
-			}
-		end,
-	},
-	--	'sphamba/smear-cursor.nvim',
+	-- {
+	-- 	'ggml-org/llama.vim',
+	-- 	init = function()
+	-- 		vim.g.llama_config = {
+	--
+	-- 			auto_fim = true,
+	-- 		}
+	-- 	end,
+	-- },
+	-- --	'sphamba/smear-cursor.nvim',
 	'NvChad/nvim-colorizer.lua',
 	'stevearc/dressing.nvim',
 	'lewis6991/gitsigns.nvim',
